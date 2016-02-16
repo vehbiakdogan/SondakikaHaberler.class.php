@@ -16,10 +16,10 @@ echo$haber['baslik'];
 
 Methodlar: 
 
-$this->HaberGetir($type) Haber başlıklarını ve içeriklerini liste halinde getiren methoddur. 1 parametre alır. bu parametre veriyi hangi türde almak istediğimizi belirler.
+<b>$this->HaberGetir($type)</b> Haber başlıklarını ve içeriklerini liste halinde getiren methoddur. 1 parametre alır. bu parametre veriyi hangi türde almak istediğimizi belirler.
 Default olarak array tipinde gönderilir. alabileceği değerler aray,json,text.
 
-$this->HaberDetayGetir($url,$type) Habein tam içeriğini getiren methoddur. iki parametre alır. birinci parametre haberin linki ikinci parametre ise haber bilgilerinin hangi veri tipinde döndürüleceğidir.
+<b>$this->HaberDetayGetir($url,$type)</b> Habein tam içeriğini getiren methoddur. iki parametre alır. birinci parametre haberin linki ikinci parametre ise haber bilgilerinin hangi veri tipinde döndürüleceğidir.
 Default olarak array tipinde gönderilir. alabileceği değerler aray,json,text.
 
 <h1>KESİNLİKLE HABERLERİ KAYNAK GÖSTERMEDEN KULLANMAYINIZ. </h1>
