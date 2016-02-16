@@ -6,13 +6,13 @@ Sondakika.com Haber Botu
 
 Kullanımı : 
 
-``php
+```php
 require_once("SonDakikaHaberler.class.php");
 $veri = new SonDakikaHaberler("erzurum"); // erzuruma ait haberleri çek.
 
 foreach($veri->HaberGetir("array") as $haber)
 echo$haber['baslik'];
-``
+```
 
 Methodlar: 
 
